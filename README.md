@@ -33,6 +33,12 @@ Este repositório será utilizado para realizar as atividades do curso "Docker: 
 
 4. Persistindo dados
 
+   - Quando containers são removidos, nossos dados são perdidos;
+   - Podemos persistir dados em definitivo através de volumes e bind mounts;
+   - Bind mounts dependem da estrutura de pastas do host;
+   - Volumes são gerenciados pelo Docker;
+   - Tmpfs armazenam dados em memória volátil.
+
 5. Comunicação através de redes
 
 6. Coordenando containeres
