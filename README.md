@@ -26,6 +26,11 @@ Este repositório será utilizado para realizar as atividades do curso "Docker: 
 
 3. Criando e compreendendo imagens
 
+   - Imagens são imutáveis, ou seja, depois de baixadas, múltiplos containers conseguirão reutilizar a mesma imagem;
+   - Imagens são compostas por uma ou mais camadas. Dessa forma, diferentes imagens são capazes de reutilizar uma ou mais camadas em comum entre si;
+   - Podemos criar nossas imagens através de Dockerfiles e do comando `docker build`;
+   - Para subir uma imagem no Docker Hub, utilizamos o comando `docker push`.
+
 4. Persistindo dados
 
 5. Comunicação através de redes
